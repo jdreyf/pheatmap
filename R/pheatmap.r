@@ -1094,7 +1094,7 @@ pheatmap = function(mat, color = colorRampPalette(rev(brewer.pal(n = 7, name = "
     # dev.off()
     
     if(is.na(filename) & !silent){
-        # grid.newpage()
+        grid.newpage()
         grid.draw(gt)
     }
     
