@@ -5,14 +5,10 @@ A package for drawing pretty heatmaps in R. The ordinary heatmap function in R h
 
 ## Installation
 
-To install the CRAN version use just 
+You can install this repo using `remotes`
 ```S
-install.packages(pheatmap)
-```
-You can install the development version using `devtools`
-```S
-library(devtools)
-install_github("raivokolde/pheatmap")
+library(remotes)
+remotes::install_github("jdreyf/pheatmap")
 ```
 
 ## Features
